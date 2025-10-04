@@ -1,113 +1,95 @@
-# 🛒 E-Commerce Web App
+# 🛒 E-Commerce Web Application (MERN Stack)
 
-A full-stack e-commerce platform built with the MERN stack.  
-It supports role-based access control, image uploads, and dynamic product management for retailers and consumers.
+A **Full Stack E-Commerce Platform** built using the **MERN Stack (MongoDB, Express, React, Node.js)**.  
+It supports secure user authentication, image uploads, and dynamic product management for **retailers and consumers**.
+
+---
 
 ## 🔐 User Roles
 
-- **Retailer**
-  - Upload products with images
-  - View and purchase other products
-  
-- **Consumer**
-  - Browse products
-  - Add to cart and buy items
+### 🏪 Retailer
+- Upload and manage products with images  
+- View and purchase other products  
+
+### 👤 Consumer
+- Browse product listings  
+- Add items to cart and complete purchases  
+
+---
 
 ## 🚀 Key Features
+- Secure **JWT-based Authentication**  
+- **Role-Based Access Control (RBAC)** for users  
+- **Image Uploads** using Multer  
+- **Dynamic Product Listings** with filters and categories  
+- **Cart System** with checkout functionality  
+- Responsive and modern UI using React  
 
-- JWT-based User Authentication
-- Role-Based Access Control (RBAC)
-- Image Uploads using Multer
-- Product Listings with Dynamic Rendering
-- Cart Functionality with Purchase Flow
+---
 
-## 🛠️ Tech Stack
+## 🧰 Tech Stack
 
-| Area      | Technology           |
-|------------|----------------------|
-| Frontend   | React.js             |
-| Backend    | Node.js, Express.js  |
-| Database   | MongoDB              |
+| Area | Technology |
+|------|-------------|
+| **Frontend** | React.js |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB |
+| **Authentication** | JSON Web Tokens (JWT) |
+| **File Uploads** | Multer |
+| **Deployment** | Vercel / Docker |
 
-## Package Manager Support
+---
 
-This project supports multiple package managers:
-- npm (`package-lock.json`)
-- yarn (`yarn.lock`)
-- pnpm (`lock.yaml`)
+## ⚙️ Environment Variables
+
+Create a `.env` file at the root of the project and include:
+MONGO_URI = your_mongo_database_uri
+JWT_SECRET = your_secret_key
+
+---
 
 ## 💻 Getting Started
 
-**1. Clone the repository** 
-   ```Bash
-   git clone "https://github.com/rutu-modha/e-commerce.git"
-cd ./e-commerce
-```
-
-**2. Install dependencies**
-- **using npm**
-```Bash
+1. Download or clone this repository.  
+2. Install dependencies:  
 npm install
-cd frontend
-npm install
-cd ..
-cd backend
-npm install
-```
-*OR*
-- **using yarn**
-```Bash
-yarn install
-cd frontend
-yarn install
-cd ..
-cd backend
-yarn install
-```
-*OR*
-- **using pnpm**
-```Bash
-pnpm install
-cd frontend
-pnpm install
-cd ..
-cd backend
-pnpm install
-```
-**3. Setup a `.env` at root file with your own Mongo_URI and JWT_SECRET variables**
-
-**4. Run both servers**
-```Bash
-cd ..
+3. Create and configure `.env` as shown above.  
+4. Start the development server:  
 npm run start
-```
-*OR*
-```Bash
-cd ..
-yarn run start
-```
-*OR*
-```Bash
-cd ..
-pnpm run start
-```
-## ✅ Upcoming Features
 
-- OAuth with Google
-- Customer Support Page
-- Static About and Contact Pages
+---
 
-## 📄 License
+## 🧠 Learning Outcomes
+- Implemented **role-based authentication** using JWT  
+- Integrated **image uploads** and product management  
+- Strengthened understanding of **frontend-backend communication**  
+- Learned **state management** and routing with React  
+- Deployed a **MERN-based web application** successfully  
 
-This project is licensed under the [MIT License](./LICENSE).
+---
 
-> If you liked this project, then please don't forget to give this repository a star. Your 1 star means a lot for me.
+## 🖥️ Upcoming Features
+- Google OAuth Login  
+- Customer Support & Feedback Page  
+- Static About and Contact Sections  
 
-## 👨‍💻 Author
+---
 
-**Hrutav Modha**
-(_modhahrutav@gmail.com_)
+## 🧾 License
+This project is released under the **MIT License**.
 
-## 🤝 Contributions
+---
 
-Feel free to fork, submit PRs, or open an issue. Let's build something cool together!
+## 👨‍💻 Developer
+
+**Malik Mohazin Zahid**  
+Founder & CEO — *M Tech Production & Marketing*  
+🎓 BS Cybersecurity | Instructor | Developer | AI/ML Enthusiast  
+📧 mohazinzahid6@gmail.com  
+📍 Haripur, Pakistan  
+
+---
+
+⭐ *“Building digital platforms that empower users and simplify commerce.”*
+
+
